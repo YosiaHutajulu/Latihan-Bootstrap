@@ -1,1 +1,80 @@
 
+body {
+  padding-top: 100px;
+  background-color: #0D0D0D;
+}
+
+#HOME {
+  background-color: #222222;
+  color:#ffffff
+}
+
+
+
+#SCHEDULE {
+  background-color: #222222; 
+  padding: 80px 5%;
+  color: #ffffff;
+}
+#SCHEDULE h2 {
+  letter-spacing: 1px;
+}
+#SCHEDULE table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#RACECARS {
+  padding: 80px 100px;
+  color:#ffffff
+}
+
+
+#CHAMPIONSHIP {
+  background-color: #222222;
+  padding: 80px 5%;
+  color: #ffffff;
+}
+
+
+#CONTACT {
+  padding: 80px 100px;
+  color:#ffffff
+}
+
+footer {
+  padding: 30px;
+  font-style: bold;
+}
+
+
+.navbar-brand img {
+  margin-left: 50%; 
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  width: 100%;
+}
+
+
+
+.navbar-nav .nav-link {
+  margin-right: 30px;
+}
+
+
+html {
+  scroll-padding-top: 70px; 
+  scroll-behavior: smooth; 
+}
+
+.navbar-nav .nav-link:hover {
+  font-weight: bold !important;   /* teks jadi tebal saat di-hover */
+}
